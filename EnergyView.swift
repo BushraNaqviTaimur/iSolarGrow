@@ -97,7 +97,7 @@ struct EnergyView: View {
         //let api = ISolarCloudAPI()
        let api: ISolarCloudAPI = MainAppNetworkingClass()
         // Perform login
-        api.login(userAccount: "masad@live.com", userPassword: "281544Zt") { result in
+        api.login(userAccount: "xyz", userPassword: "123") { result in
             switch result {
             case .success(let (token, userMasterOrgID)):
                 print("Token: \(token)")
